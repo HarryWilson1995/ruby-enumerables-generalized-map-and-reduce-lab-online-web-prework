@@ -9,7 +9,7 @@ end
 return new 
 end 
 
-def reduce(array)
+def reduce(array, starting_value = 0)
   
   
 end 
