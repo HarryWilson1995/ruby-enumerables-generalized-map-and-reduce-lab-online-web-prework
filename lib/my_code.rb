@@ -1,2 +1,10 @@
 # Your Code Here
-def my_own_map(array){|
+def map(array)
+  new = []
+  i = 0 
+  while i < array.count do 
+    new.push(yield(array[i]))
+  i += 1 
+end 
+return new 
+end 
